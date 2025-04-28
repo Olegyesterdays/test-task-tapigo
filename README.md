@@ -1,5 +1,39 @@
-# Vue 3 + TypeScript + Vite
+# 🧪 Тестовое задание для Tapigo
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 📌 Цель
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Создать небольшое SPA-приложение на Vue, которое:
+
+- Загружает список задач из JSON-файла
+- Позволяет отмечать задачи как выполненные (чекбоксы)
+
+## ⚙️ Стек технологий
+
+- Vue.js 3 (Composition API)
+- TypeScript
+- Pinia
+- Docker compose
+
+## ⚡ Быстрый старт
+
+### 🚀 Production режим
+
+Запуск приложения
+
+``` bash
+npm start
+```
+
+### 🛠️ Dev режим
+
+Установка зависимостей
+
+``` bash
+npm i
+```
+
+Запуск приложения
+
+``` bash
+npm run dev
+```
