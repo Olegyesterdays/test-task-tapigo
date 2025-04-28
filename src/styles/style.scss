@@ -1,0 +1,52 @@
+@use './font.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+  }
+}
+
+html {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE и Edge */
+  scroll-behavior: smooth;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  &:focus {
+    outline: none;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
